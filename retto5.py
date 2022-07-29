@@ -13,5 +13,5 @@ def listaPeliculas(rutaFileCsv:str)->str:
             print('Error al leer el archivo de datos.')
     else:
         print('Extensión inválida.')
-    return #este return como no funciona por no pasa nada al no pone nada :3
+    return # este return como no funciona por no pasa nada al no pone nada :3
 print(listaPeliculas(rutaFileCsv))
